@@ -1,0 +1,15 @@
+.Button {
+    color: #ccc;
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    background-color: green; 
+    height: 15%;
+    border-radius: 2px;
+
+}
+
+.Button:hover {
+    background-color: rgb(38, 105, 38);
+}

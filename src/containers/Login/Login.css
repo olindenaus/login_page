@@ -1,0 +1,23 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AppLogo {
+    /* animation: App-logo-spin infinite 30s linear; */
+    height: 20vmin;
+    pointer-events: none;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

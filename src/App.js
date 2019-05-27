@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Form from './containers/Form';
+import classes from './App.css';
+import Layout from './hoc/Layout/Layout';
+import { Route, Switch } from 'react-router-dom';
+import Login from './containers/Login/Login';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-          <img src={logo} className="App-logo" alt="logo" />
-          <Form />
+      <div className={classes.App}>
+        <Layout>
+          <Switch>
+            <Route path="/" component={Login} />
+          </Switch>        
+        </Layout>
       </div>
     );
   }
